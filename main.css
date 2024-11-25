@@ -22,7 +22,6 @@ table {
 }
 
 canvas {
-	display: contents;
 	display: block;
 	z-index: -1;
 	position: fixed;
