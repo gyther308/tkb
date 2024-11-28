@@ -22,6 +22,8 @@ table {
 }
 
 canvas {
+	width: 100vw;
+	height: 100vh;
 	display: block;
 	z-index: -1;
 	position: fixed;
