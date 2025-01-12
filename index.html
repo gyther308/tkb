@@ -143,6 +143,18 @@
 			<td>_</td>
 		</tr>
 	</table>
+	<script>
+		function reload() {
+			const now = new Date();
+			const h = now.getHours();
+			const m = now.getMinutes();
+			const s = now.getSeconds();
+			if (h == 0 && m == 0 && s == 0) {
+				location.reload();
+			}
+		}
+		setInterval(reload, 1000);
+	</script>
 	<script src="background.js"></script>
 	<script src="main.js"></script>
 </body>
