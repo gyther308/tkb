@@ -6,12 +6,15 @@
 	<meta name="description" content="Thời khóa biểu 12C1.">
 	<title> Thời Khóa biểu 12C1 </title>
 	<link rel="icon" type="png" href="img.png">
-	<link rel="stylesheet" href="main.css"/>
+	<link rel="stylesheet" href="main.css" />
 </head>
 <body>
 	<canvas id="particleCanvas"></canvas>
 	<span>
-		<h2> <p> Thời khóa biểu 12C1 </p> </h2>
+		<h2> <p>
+			Thời khóa biểu 12C1
+		</p>
+		</h2>
 		<table id="table_main">
 			<colgroup>
 				<col class="le">
@@ -32,7 +35,7 @@
 					<th class="Nam am pm" id="Nam"></th>
 					<th class="Sau am pm" id="Sau"></th>
 					<th class="Bay am pm" id="Bay"></th>
-					<th class="CN am pm t_r" id ="CN"></th>
+					<th class="CN am pm t_r" id="CN"></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -143,18 +146,6 @@
 			<td>_</td>
 		</tr>
 	</table>
-	<script>
-		function reload() {
-			const now = new Date();
-			const h = now.getHours();
-			const m = now.getMinutes();
-			const s = now.getSeconds();
-			if (h == 0 && m == 0 && s == 0) {
-				location.reload();
-			}
-		}
-		setInterval(reload, 1000);
-	</script>
 	<script src="background.js"></script>
 	<script src="main.js"></script>
 </body>

@@ -26,6 +26,13 @@ function load_data() {
 		});
 }
 
+function reload() {
+	const now = new Date();
+	if (d.getDay() != now.getDay()) {
+		location.reload();
+	}
+}
+
 function save_data() {
 	let data = "", arrClass;
 	for (let i = 1; i < weekday.length; ++i) {
@@ -161,6 +168,7 @@ function InitializeVariables () {
 document.addEventListener('DOMContentLoaded', function () {
 	InitializeVariables();
 	load_data();
+	setInterval(reload, 1000);
 	clickOn();
 	arrTH_subject[0].onclick = function(event) {
 		event.stopPropagation();
