@@ -168,7 +168,7 @@ function InitializeVariables () {
 document.addEventListener('DOMContentLoaded', function () {
 	InitializeVariables();
 	load_data();
-	setInterval(reload, 1000);
+	setInterval(reload, 30000);
 	clickOn();
 	arrTH_subject[0].onclick = function(event) {
 		event.stopPropagation();
