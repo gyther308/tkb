@@ -1,7 +1,7 @@
 T2,ChCờ,Tin,Toán,Hoá,Văn,Lí,Toán
 T3,Toán,Toán,Văn,Sinh,Hoá,Hoá,Văn
-T4,Lí,Anh,Hoá,Văn,TNHN,Toán,Sinh
-T5,Lí,Tin,Anh,Anh,Sinh,Lí,Hoá
-T6,Toán,GDTC,Sử,Lí,,,
+T4,Lí,Anh,Hoá,Văn,TNHN,Lí,Sinh
+T5,Lí,Tin,Anh,Anh,Sinh,Hoá,Sinh
+T6,Toán,GDTC,Sử,Lí,,Toán,Hoá
 T7,GDĐP,GDTC,SHL,Sử,,,
 CN,,,,,,,
