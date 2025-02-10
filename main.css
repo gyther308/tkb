@@ -3,6 +3,7 @@ html, body {
 	padding: 0px;
 	width: 100vw;
 	height: 100vh;
+	user-select: none;
 	font-family: Arian, Helvetica, sans-serif;
 }
 
